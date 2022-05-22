@@ -1,6 +1,6 @@
 {
   "name": "nestjs-node-config-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NestJS Config module based on node config",
   "author": "Pavel Fediukovich",
   "license": "MIT",
