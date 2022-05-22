@@ -1,12 +1,13 @@
 # source
 lib
 tests
-index.ts
-yarn-lock.json
-tslint.json
 tsconfig.json
 .prettierrc
 .idea
+.circleci
+.eslintignore
+.commitlintrc.json
+.release-it.json
 
 # github
 .github
