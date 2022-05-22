@@ -71,12 +71,11 @@ Config module accepts optional `options` parameter, parameters are described bel
   </tr>
   <tr>
     <td><code>strictMode</code></td>
-    <td>Strict mode (read more <a href="https://github.com/node-config/node-config/wiki/Environment-Variables#node_config_strict_mode" rel="nofollow" target="_blank">here</a></td>
+    <td>Strict mode (read more <a href="https://github.com/node-config/node-config/wiki/Environment-Variables#node_config_strict_mode" rel="nofollow" target="_blank">here</a>)</td>
   </tr>
     <td><code>configService</code></td>
     <td>Class that extends default ConfigService, you can use it to have all settings in one place</td>
   <tr>
-</tr>
 </table>
 
 ### ConfigService
@@ -113,7 +112,7 @@ export class AppModule {
 And now it's accessible in nest IoC container: 
 
 ```typescript
-import { ConfigService } from "nestjs-node-config-module";
+import { MyConfigService } from "./my-config.service";
 
 @Injectable()
 export class AppService {
