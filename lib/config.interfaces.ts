@@ -1,3 +1,4 @@
+import { IConfig } from 'config';
 import { ConfigService } from './config.service';
 
 export interface ConfigOptions {
@@ -28,5 +29,5 @@ export interface ConfigOptions {
    */
   strictMode?: boolean;
 
-  serviceClass?: new () => ConfigService;
+  serviceClass?: new (config: IConfig) => ConfigService;
 }
